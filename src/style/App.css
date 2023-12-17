@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+
+.container {
+  @apply max-w-[1000px] mx-auto 
+}
+
+}
+
+
+#heroSection{
+  background-image: url("images/bg-plumber-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#serviceSection{
+  background-image: url("images/service.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+}
